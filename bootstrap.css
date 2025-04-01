@@ -2118,12 +2118,12 @@ progress {
   color: var(--bs-body-color);
   background-color: var(--bs-body-bg);
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  /* border: var(--bs-border-width) solid var(--bs-border-color); */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   border-radius: var(--bs-border-radius);
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -2139,9 +2139,9 @@ progress {
 .form-control:focus {
   color: var(--bs-body-color);
   background-color: var(--bs-body-bg);
-  border-color: #86b7fe;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  /* border-color: #86b7fe; */
+  outline: none;
+  /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
 }
 .form-control::-webkit-date-and-time-value {
   min-width: 85px;
